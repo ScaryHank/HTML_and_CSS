@@ -1,7 +1,8 @@
 /* It's just gibberish, relax */
 p {
 	color: pearl;
-	background: magenta;
+	background: blue;
 	font-size: large;
 	text-align: center;
+	text-shadow: 2px 2px orange;
 }
