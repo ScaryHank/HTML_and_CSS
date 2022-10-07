@@ -29,32 +29,44 @@ body {
 
 .menu li {
     color: #b3b3b3;
-    display:inline-block;
-    margin-right:-2px;
-    position:relative;
-    padding:12px 40px;
+    display: inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
     border: 1px solid #9D9FA2;
-    background-color:#387593;
-    cursor:pointer;
+    background-color: #387593;
+    cursor: pointer;
 }
 
 .menu li:hover{
     background-color: #5eaefd;
-    color:#fff;
+    color: #fff;
 }
 
 .menu li:hover ul{
-    display:block;
-    opacity:1;
+    display: block;
+    opacity: 1;
     /*while hovered drop-menu appears.
     Also avoids a block-leel bug*/
     visibility: visible;
 }
 
+.submenu {
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 43.5px;
+    width: 125.5px;
+    opacity: 0;
+    /*while not hovered, dropmenu hides
+    Also avoids a block-level bug*/
+    visibility: hidden;
+}
+
 .submenu li{
-    background-color:#387593;
-    display:block;
-    color:#b3b3b3;
+    background-color: #387593;
+    display: block;
+    color: #b3b3b3;
 }
 
 .submenu li:hover{
