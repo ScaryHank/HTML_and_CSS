@@ -1,4 +1,4 @@
-# Basic_HTML_and_CSS
+# HTML_and_CSS
  Tech Academy HTML and CSS coursework files.
  These are some very basic webpages and code files I've put together during my study with The Tech Academy.
  Projects
